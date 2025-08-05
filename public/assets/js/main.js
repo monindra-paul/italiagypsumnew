@@ -53,237 +53,237 @@
 
   /*=====  End of menu sticky and scroll to top  ======*/
 
-  windows.on("load", function () {
-    /*=============================================
-        =            preloader active            =
-        =============================================*/
-    $(".preloader-activate").removeClass("preloader-active");
+  // windows.on("load", function () {
+  //   /*=============================================
+  //       =            preloader active            =
+  //       =============================================*/
+  //   $(".preloader-activate").removeClass("preloader-active");
     /*=====  End of preloader active  ======*/
 
-    if ($("#doughnut-chart").length) {
-      /* Note: Edit Here Your Data */
-      new Chart(document.getElementById("doughnut-chart"), {
-        type: "pie",
-        data: {
-          labels: ["One", "Two", "Three"],
-          datasets: [
-            {
-              backgroundColor: ["#d8c6ad", "#e08a33", "#a568e2"],
-              hoverBackgroundColor: ["#d8c6ad", "#e08a33", "#a568e2"],
-              data: ["25", "30", "45"],
-              borderWidth: 0
-            }
-          ]
-        },
-        options: {
-          animation: { duration: 2000 },
-          maintainAspectRatio: true,
-          cutoutPercentage: 50,
-          tooltips: {
-            enabled: true,
-            bodySpacing: 8,
-            titleSpacing: 6,
-            cornerRadius: 8,
-            xPadding: 10,
-            footerFontSize: 15,
-            footerFontColor: "#222222"
-          },
-          legend: {
-            display: true,
-            position: "right",
-            labels: { usePointStyle: true, padding: 30, boxWidth: 16 }
-          }
-        }
-      });
-    }
+  //   if ($("#doughnut-chart").length) {
+  //     /* Note: Edit Here Your Data */
+  //     new Chart(document.getElementById("doughnut-chart"), {
+  //       type: "pie",
+  //       data: {
+  //         labels: ["One", "Two", "Three"],
+  //         datasets: [
+  //           {
+  //             backgroundColor: ["#d8c6ad", "#e08a33", "#a568e2"],
+  //             hoverBackgroundColor: ["#d8c6ad", "#e08a33", "#a568e2"],
+  //             data: ["25", "30", "45"],
+  //             borderWidth: 0
+  //           }
+  //         ]
+  //       },
+  //       options: {
+  //         animation: { duration: 2000 },
+  //         maintainAspectRatio: true,
+  //         cutoutPercentage: 50,
+  //         tooltips: {
+  //           enabled: true,
+  //           bodySpacing: 8,
+  //           titleSpacing: 6,
+  //           cornerRadius: 8,
+  //           xPadding: 10,
+  //           footerFontSize: 15,
+  //           footerFontColor: "#222222"
+  //         },
+  //         legend: {
+  //           display: true,
+  //           position: "right",
+  //           labels: { usePointStyle: true, padding: 30, boxWidth: 16 }
+  //         }
+  //       }
+  //     });
+  //   }
 
-    if ($("#pie-chart").length) {
-      /* Note: Edit Here Your Data */
-      new Chart(document.getElementById("pie-chart"), {
-        type: "pie",
-        data: {
-          labels: ["One", "Two", "Three"],
-          datasets: [
-            {
-              backgroundColor: ["#b76eef", "#e08164", "#71aefe"],
-              hoverBackgroundColor: ["#b76eef", "#e08164", "#71aefe"],
-              data: ["25", "45", "30"],
-              borderWidth: 0
-            }
-          ]
-        },
-        options: {
-          animation: { duration: 2000 },
-          maintainAspectRatio: true,
-          cutoutPercentage: 0,
-          tooltips: {
-            enabled: true,
-            bodySpacing: 8,
-            titleSpacing: 6,
-            cornerRadius: 8,
-            xPadding: 10,
-            footerFontSize: 15,
-            footerFontColor: "#222222"
-          },
-          legend: {
-            display: true,
-            position: "right",
-            labels: { usePointStyle: true, padding: 30, boxWidth: 16 }
-          }
-        }
-      });
-    }
+  //   if ($("#pie-chart").length) {
+  //     /* Note: Edit Here Your Data */
+  //     new Chart(document.getElementById("pie-chart"), {
+  //       type: "pie",
+  //       data: {
+  //         labels: ["One", "Two", "Three"],
+  //         datasets: [
+  //           {
+  //             backgroundColor: ["#b76eef", "#e08164", "#71aefe"],
+  //             hoverBackgroundColor: ["#b76eef", "#e08164", "#71aefe"],
+  //             data: ["25", "45", "30"],
+  //             borderWidth: 0
+  //           }
+  //         ]
+  //       },
+  //       options: {
+  //         animation: { duration: 2000 },
+  //         maintainAspectRatio: true,
+  //         cutoutPercentage: 0,
+  //         tooltips: {
+  //           enabled: true,
+  //           bodySpacing: 8,
+  //           titleSpacing: 6,
+  //           cornerRadius: 8,
+  //           xPadding: 10,
+  //           footerFontSize: 15,
+  //           footerFontColor: "#222222"
+  //         },
+  //         legend: {
+  //           display: true,
+  //           position: "right",
+  //           labels: { usePointStyle: true, padding: 30, boxWidth: 16 }
+  //         }
+  //       }
+  //     });
+  //   }
 
-    if ($("#bar-chart").length) {
-      /* Note: Edit Here Your Data */
-      new Chart(document.getElementById("bar-chart"), {
-        type: "bar",
-        data: {
-          labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
-          datasets: [
-            {
-              label: "One",
-              backgroundColor: "#ff8585",
-              borderColor: "#ff8585",
-              data: ["10", "15", "20", "25", "28", "25", "23", "25"],
-              borderWidth: "0"
-            },
-            {
-              label: "Two",
-              backgroundColor: "#759cff",
-              borderColor: "#759cff",
-              data: ["25", "18", "16", "17", "20", "25", "30", "35"],
-              borderWidth: "0"
-            }
-          ]
-        },
-        options: {
-          animation: { duration: 2000 },
-          maintainAspectRatio: true,
-          tooltips: {
-            enabled: true,
-            mode: "index",
-            intersect: false,
-            bodySpacing: 8,
-            titleSpacing: 6,
-            cornerRadius: 8,
-            xPadding: 10
-          },
-          legend: {
-            display: true,
-            position: "bottom",
-            labels: { usePointStyle: false, padding: 20, boxWidth: 16 }
-          },
-          scales: {
-            yAxes: [
-              {
-                ticks: { fontColor: "222", beginAtZero: true },
-                gridLines: {
-                  color: "rgba(43, 43, 43, 0.2)",
-                  zeroLineColor: "rgba(43, 43, 43, 0.6)"
-                }
-              }
-            ]
-          }
-        }
-      });
-    }
+  //   if ($("#bar-chart").length) {
+  //     /* Note: Edit Here Your Data */
+  //     new Chart(document.getElementById("bar-chart"), {
+  //       type: "bar",
+  //       data: {
+  //         labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+  //         datasets: [
+  //           {
+  //             label: "One",
+  //             backgroundColor: "#ff8585",
+  //             borderColor: "#ff8585",
+  //             data: ["10", "15", "20", "25", "28", "25", "23", "25"],
+  //             borderWidth: "0"
+  //           },
+  //           {
+  //             label: "Two",
+  //             backgroundColor: "#759cff",
+  //             borderColor: "#759cff",
+  //             data: ["25", "18", "16", "17", "20", "25", "30", "35"],
+  //             borderWidth: "0"
+  //           }
+  //         ]
+  //       },
+  //       options: {
+  //         animation: { duration: 2000 },
+  //         maintainAspectRatio: true,
+  //         tooltips: {
+  //           enabled: true,
+  //           mode: "index",
+  //           intersect: false,
+  //           bodySpacing: 8,
+  //           titleSpacing: 6,
+  //           cornerRadius: 8,
+  //           xPadding: 10
+  //         },
+  //         legend: {
+  //           display: true,
+  //           position: "bottom",
+  //           labels: { usePointStyle: false, padding: 20, boxWidth: 16 }
+  //         },
+  //         scales: {
+  //           yAxes: [
+  //             {
+  //               ticks: { fontColor: "222", beginAtZero: true },
+  //               gridLines: {
+  //                 color: "rgba(43, 43, 43, 0.2)",
+  //                 zeroLineColor: "rgba(43, 43, 43, 0.6)"
+  //               }
+  //             }
+  //           ]
+  //         }
+  //       }
+  //     });
+  //   }
 
-    if ($("#curve-chart").length) {
-      /* Note: Edit Here Your Data */
-      new Chart(document.getElementById("curve-chart"), {
-        type: "line",
-        data: {
-          labels: [
-            "January",
-            "February",
-            "March",
-            "April",
-            "May",
-            "June",
-            "July"
-          ],
-          datasets: [
-            {
-              label: "Cost",
-              fill: true,
-              backgroundColor: "rgba(255,192,206,0.42)",
-              borderColor: "rgba(255,0,51,0.42)",
-              borderCapStyle: "butt",
-              borderDash: [],
-              borderDashOffset: 0,
-              borderJoinStyle: "miter",
-              spanGaps: false,
-              showLine: true,
-              steppedLine: false,
-              pointStyle: "circle",
-              pointBorderWidth: 1,
-              pointHoverRadius: 5,
-              pointHoverBorderWidth: 1,
-              hidden: false,
-              lineTension: 0.3515,
-              data: ["-27", "60", "-98", "4", "17", "18", "72"],
-              borderWidth: 2,
-              pointRadius: 4,
-              pointHitRadius: 3
-            },
-            {
-              label: "Revenue",
-              fill: true,
-              backgroundColor: "rgba(197,222,255,0.56)",
-              borderColor: "rgba(0,70,253,0.56)",
-              borderCapStyle: "butt",
-              borderDash: [],
-              borderDashOffset: 0,
-              borderJoinStyle: "miter",
-              spanGaps: false,
-              showLine: true,
-              steppedLine: false,
-              pointStyle: "circle",
-              pointBorderWidth: 1,
-              pointHoverRadius: 5,
-              pointHoverBorderWidth: 1,
-              hidden: false,
-              lineTension: 0.3515,
-              data: ["-37", "16", "63", "4", "-10", "60", "0"],
-              borderWidth: 2,
-              pointRadius: 4,
-              pointHitRadius: 3
-            }
-          ]
-        },
-        options: {
-          animation: { duration: 2000 },
-          maintainAspectRatio: true,
-          tooltips: {
-            enabled: true,
-            mode: "index",
-            intersect: false,
-            bodySpacing: 8,
-            titleSpacing: 6,
-            cornerRadius: 8,
-            xPadding: 10
-          },
-          legend: {
-            display: true,
-            position: "bottom",
-            labels: { usePointStyle: false, padding: 20, boxWidth: 16 }
-          },
-          scales: {
-            yAxes: [
-              {
-                ticks: { fontColor: "222", beginAtZero: true },
-                gridLines: {
-                  color: "rgba(43, 43, 43, 0.2)",
-                  zeroLineColor: "rgba(43, 43, 43, 0.6)"
-                }
-              }
-            ]
-          }
-        }
-      });
-    }
-  });
+  //   if ($("#curve-chart").length) {
+  //     /* Note: Edit Here Your Data */
+  //     new Chart(document.getElementById("curve-chart"), {
+  //       type: "line",
+  //       data: {
+  //         labels: [
+  //           "January",
+  //           "February",
+  //           "March",
+  //           "April",
+  //           "May",
+  //           "June",
+  //           "July"
+  //         ],
+  //         datasets: [
+  //           {
+  //             label: "Cost",
+  //             fill: true,
+  //             backgroundColor: "rgba(255,192,206,0.42)",
+  //             borderColor: "rgba(255,0,51,0.42)",
+  //             borderCapStyle: "butt",
+  //             borderDash: [],
+  //             borderDashOffset: 0,
+  //             borderJoinStyle: "miter",
+  //             spanGaps: false,
+  //             showLine: true,
+  //             steppedLine: false,
+  //             pointStyle: "circle",
+  //             pointBorderWidth: 1,
+  //             pointHoverRadius: 5,
+  //             pointHoverBorderWidth: 1,
+  //             hidden: false,
+  //             lineTension: 0.3515,
+  //             data: ["-27", "60", "-98", "4", "17", "18", "72"],
+  //             borderWidth: 2,
+  //             pointRadius: 4,
+  //             pointHitRadius: 3
+  //           },
+  //           {
+  //             label: "Revenue",
+  //             fill: true,
+  //             backgroundColor: "rgba(197,222,255,0.56)",
+  //             borderColor: "rgba(0,70,253,0.56)",
+  //             borderCapStyle: "butt",
+  //             borderDash: [],
+  //             borderDashOffset: 0,
+  //             borderJoinStyle: "miter",
+  //             spanGaps: false,
+  //             showLine: true,
+  //             steppedLine: false,
+  //             pointStyle: "circle",
+  //             pointBorderWidth: 1,
+  //             pointHoverRadius: 5,
+  //             pointHoverBorderWidth: 1,
+  //             hidden: false,
+  //             lineTension: 0.3515,
+  //             data: ["-37", "16", "63", "4", "-10", "60", "0"],
+  //             borderWidth: 2,
+  //             pointRadius: 4,
+  //             pointHitRadius: 3
+  //           }
+  //         ]
+  //       },
+  //       options: {
+  //         animation: { duration: 2000 },
+  //         maintainAspectRatio: true,
+  //         tooltips: {
+  //           enabled: true,
+  //           mode: "index",
+  //           intersect: false,
+  //           bodySpacing: 8,
+  //           titleSpacing: 6,
+  //           cornerRadius: 8,
+  //           xPadding: 10
+  //         },
+  //         legend: {
+  //           display: true,
+  //           position: "bottom",
+  //           labels: { usePointStyle: false, padding: 20, boxWidth: 16 }
+  //         },
+  //         scales: {
+  //           yAxes: [
+  //             {
+  //               ticks: { fontColor: "222", beginAtZero: true },
+  //               gridLines: {
+  //                 color: "rgba(43, 43, 43, 0.2)",
+  //                 zeroLineColor: "rgba(43, 43, 43, 0.6)"
+  //               }
+  //             }
+  //           ]
+  //         }
+  //       }
+  //     });
+  //   }
+  // });
 
   /*=============================================
     =            background image            =
@@ -1717,3 +1717,44 @@
 
   /*=====  End of shipping form active  ======*/
 })(jQuery);
+
+
+
+// custom italia js
+
+if ($("#pie-chart").length) {
+      /* Note: Edit Here Your Data */
+      new Chart(document.getElementById("pie-chart"), {
+        type: "pie",
+        data: {
+          labels: ["SO₃	", "CaO", "MgO","Na₂O","Insolubles/Other Impurities"],
+          datasets: [
+            {
+              backgroundColor: ["#7100c8ff", "#e3d402ff", "#71aefe","#00d58bff","#b37e01ff"],
+              hoverBackgroundColor: ["#7100c8ff", "#e3d402ff", "#71aefe","#00d58bff","#b37e01ff"],
+              data: ["50", "40", "1","20","1.5"],
+              borderWidth: 0
+            }
+          ]
+        },
+        options: {
+          animation: { duration: 2000 },
+          maintainAspectRatio: true,
+          cutoutPercentage: 0,
+          tooltips: {
+            enabled: true,
+            bodySpacing: 8,
+            titleSpacing: 6,
+            cornerRadius: 8,
+            xPadding: 10,
+            footerFontSize: 15,
+            footerFontColor: "#0c0052ff"
+          },
+          legend: {
+            display: true,
+            position: "right",
+            labels: { usePointStyle: true, padding: 30, boxWidth: 16 }
+          }
+        }
+      });
+    }

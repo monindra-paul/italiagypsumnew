@@ -27,7 +27,7 @@
                     <div class="col-md-4">
                         <div class="contact-location-grid__single">
                             <div class="contact-location-grid__image">
-                                <img src="assets/img/contact/1.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/italia/pages/kamco.jpeg" class="img-fluid" alt="" style="border-radius: 10px">
                             </div>
                             <div class="contact-location-grid__content">
                                 <h2 class="title">Head Office</h2>

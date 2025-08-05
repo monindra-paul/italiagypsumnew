@@ -79,6 +79,10 @@
     <!-- Bootstrap JS -->
     <script src="assets/js/vendor/bootstrap.min.js"></script>
 
+
+ <!-- Chart JS -->
+    <script src="assets/js/plugins/chart.min.js"></script>
+
     <!-- Popper JS -->
     <script src="assets/js/vendor/popper.min.js"></script>
 
@@ -121,7 +125,7 @@
 
     {{-- google chart --}}
 
-
+{{-- 
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
       google.charts.load('current', {
@@ -146,7 +150,7 @@
 
         chart.draw(data, options);
       }
-    </script>
+    </script> --}}
 
 
 

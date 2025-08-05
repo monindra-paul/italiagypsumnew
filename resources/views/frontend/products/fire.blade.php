@@ -298,7 +298,9 @@
                         <div class="content">
                             <h3 class="heading">Color</h3>
                             <p class="text">
-                              Face: Ivory, Back: Grey
+                             Face: Pink, Back: Grey
+
+
                             </p>
                         </div>
                     </div>

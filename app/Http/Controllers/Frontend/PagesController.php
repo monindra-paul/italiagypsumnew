@@ -20,4 +20,9 @@ class PagesController extends Controller
     {
         return view('frontend.pages.whyitalia');
     }
+
+    public function gallery()
+    {
+        return view('frontend.pages.gallery');
+    }
 }

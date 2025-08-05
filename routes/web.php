@@ -19,3 +19,14 @@ Route::get('/regular-gypsum-board', [ProductController::class, 'regular'])->name
 Route::get('/moisture-gypsum-board', [ProductController::class, 'moisture'])->name('board.moisture');
 Route::get('/fire-gypsum-board', [ProductController::class, 'fire'])->name('board.fire');
 Route::get('/fire-moisture-gypsum-board', [ProductController::class, 'fmr'])->name('board.fmr');
+
+
+Route::get('/fine-plaster', [ProductController::class, 'fineplaster'])->name('fineplaster');
+Route::get('/moulding-plaster', [ProductController::class, 'mouldingplaster'])->name('moulding');
+Route::get('/vermiculite-plaster', [ProductController::class, 'vermiculiteplaster'])->name('vermiculite');
+Route::get('/perlite-plaster', [ProductController::class, 'perlite'])->name('perlite');
+Route::get('/machine-plaster', [ProductController::class, 'machine'])->name('machine');
+
+Route::get('/jointing-compound', [ProductController::class, 'jointing'])->name('jointingcomp');
+
+Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');

@@ -1,4 +1,5 @@
-@extends('frontend.layout.app') @section('content')
+@extends('frontend.layout.app') 
+@section('content')
 
 <!--====================  breadcrumb area ====================-->
 <div class="breadcrumb-area breadcrumb-area-bg section-space--inner--80 bg-img"
@@ -314,7 +315,9 @@
                         <div class="content">
                             <h3 class="heading">Color</h3>
                             <p class="text">
-                              Face: Ivory, Back: Grey
+                              Face: Green, Back: Grey
+
+
                             </p>
                         </div>
                     </div>

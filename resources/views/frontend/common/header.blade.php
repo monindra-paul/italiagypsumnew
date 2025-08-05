@@ -98,10 +98,10 @@ Sharq</h6>
                                                 <a href="{{url('/')}}">HOME</a>                                               
                                             </li>
                                             <li class="">
-                                                <a href="{{url('/')}}">ABOUT US</a>                                               
+                                                <a href="{{url('/about-us')}}">ABOUT US</a>                                               
                                             </li>
                                             <li class="">
-                                                <a href="{{url('/')}}">WHY ITALIA</a>                                               
+                                                <a href="{{url('/why-italia')}}">WHY ITALIA</a>                                               
                                             </li>
                                             <li class="has-children">
                                                 <a href="#">PRODUCTS</a>
@@ -109,19 +109,20 @@ Sharq</h6>
                                                     <li>
                                                         <h2 class="page-list-title">Gypsum Boards</h2>
                                                         <ul>
-                                                            <li><a href="#">Regular Board</a></li>
-                                                            <li><a href="#">Moisture Resistance Board</a></li>
-                                                            <li><a href="#">Fire Resistance Board</a></li>
-                                                            <li><a href="#">Fire & Moisture Resistance Board</a></li>
-                                                            
+                                                            <li><a href="{{route('board.regular')}}">Regular Board</a></li>
+                                                            <li><a href="{{route('board.moisture')}}">Moisture Resistance Board</a></li>
+                                                            <li><a href="{{route('board.fire')}}">Fire Resistance Board</a></li>
+                                                            <li><a href="{{route('board.fmr')}}">Fire & Moisture Resistance Board</a></li>                                                            
                                                         </ul>
                                                     </li>
                                                     <li>
                                                         <h2 class="page-list-title">Wall Plasters</h2>
                                                         <ul>
-                                                            <li><a href="#">Vermiculite Plasters</a></li>
-                                                            <li><a href="#">Paralite Plasters</a></li>
-                                                            <li><a href="#">Machine Plasters</a></li>
+                                                            <li><a href="{{route('fineplaster')}}">Fine Plaster</a></li>
+                                                            <li><a href="{{route('moulding')}}">Moulding Plaster</a></li>
+                                                            <li><a href="{{route('vermiculite')}}">Vermiculite Plasters</a></li>
+                                                            <li><a href="{{route('perlite')}}">Paralite Plasters</a></li>
+                                                            <li><a href="{{route('machine')}}">Machine Plasters</a></li>
                                                         </ul>
                                                     </li>
                                                     
@@ -130,7 +131,7 @@ Sharq</h6>
                                                         <ul>
                                                             <li><a href="#">60cm X 60cm Tiles </a></li>
                                                             <li><a href="#">60cm X 100cm Tiles </a></li>
-                                                            <li><a href="#">GRG Panels </a></li>
+                                                            <li><a href="#">GRG / GRC Panels </a></li>
                                                             <li><a href="#">Cronices </a></li>                                                            
                                                         </ul>
                                                     </li>
@@ -140,7 +141,7 @@ Sharq</h6>
                                                         <ul>
                                                             <li><a href="#">Jointing Compound</a></li>
                                                             <li><a href="#">Wall Putty</a></li>
-                                                            <li><a href="#">Plaster of Paris ( POP ) </a></li>
+                                                            {{-- <li><a href="#">Plaster of Paris ( POP ) </a></li> --}}
                                                                                                                     
                                                         </ul>
                                                     </li>

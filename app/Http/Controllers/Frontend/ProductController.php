@@ -26,4 +26,35 @@ class ProductController extends Controller
     {
         return view('frontend.products.fmr');
     }
+
+
+    public function fineplaster()
+    {
+        return view('frontend.products.fineplaster');
+    }
+
+    public function mouldingplaster()
+    {
+        return view('frontend.products.mouldingplaster');
+    }
+
+    public function vermiculiteplaster()
+    {
+        return view('frontend.products.vermiculite');
+    }
+
+    public function perlite()
+    {
+        return view('frontend.products.perlite');
+    }
+
+    public function machine()
+    {
+        return view("frontend.products.machineplaster");
+    }
+
+    public function jointing()
+    {
+        return view('frontend.products.jointingcom');
+    }
 }

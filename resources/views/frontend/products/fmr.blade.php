@@ -26,7 +26,7 @@
     <div class="row align-items-center">
         <div class="col-md-5">
             <div class="feature-project-single-slide__image">
-                <img src="assets/img/italia/product/moisture.png" class="img-fluid" alt="" />
+                <img src="assets/img/italia/product/fmr.png" class="img-fluid" alt="" />
             </div>
         </div>
         <div class="col-md-7">
@@ -74,7 +74,7 @@
             <div class="feature-project-single-slide__content">
                 <!-- section title left align -->
                
-<table class="table table-hover">
+                <table class="table table-hover">
                     <thead>
                       <tr>
                         <th style="background-color: rgb(0, 4, 79); color:white;" scope="col">Properties (per 12.5 mm)	</th>
@@ -202,7 +202,7 @@
         <div class="col-md-5">
             <div class="col-md-12">
                 <div class="feature-project-single-slide__image">
-                    <img src="assets/img/italia/product/moisture-spec.png" class="img-fluid" alt="" width="" />
+                    <img src="assets/img/italia/product/fmr-spec.png" class="img-fluid" alt="" width="" />
                 </div>
             </div>
             <div class="col-md-12">
@@ -314,7 +314,9 @@
                         <div class="content">
                             <h3 class="heading">Color</h3>
                             <p class="text">
-                              Face: Ivory, Back: Grey
+                              Face: Green, Back: Pink
+
+
                             </p>
                         </div>
                     </div>

@@ -401,7 +401,7 @@
                     <div class="brand-logo-slider__container-area">
                         <div class="swiper-container brand-logo-slider__container">
                             <div class="swiper-wrapper brand-logo-slider__wrapper">
-                                <div class="swiper-slide brand-logo-slider__single">
+                                {{-- <div class="swiper-slide brand-logo-slider__single">
                                     <div class="image">
                                         <img src="https://gyp-techno.com/wp-content/uploads/2022/09/osdj.png.webp" class="img-fluid" alt="">
                                     </div>
@@ -440,7 +440,7 @@
                                     <div class="image-hover">
                                         <img src="http://gyp-techno.com/wp-content/uploads/2022/09/grenzebach.png.webp" class="img-fluid" alt="">
                                     </div>
-                                </div>
+                                </div> --}}
                                 {{-- <div class="swiper-slide brand-logo-slider__single">
                                     <div class="image">
                                         <img src="assets/img/brand-logo/6.png" class="img-fluid" alt="">

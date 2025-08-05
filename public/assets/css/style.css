@@ -19657,3 +19657,62 @@ only screen and (max-width: 767px) {
 }
 
 /*=====  End of site maintenance  ======*/
+
+
+
+
+/* custom for italia */
+
+
+
+.spec-table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(60, 72, 100, 0.13);
+  margin: 32px 0;
+}
+
+.spec-table caption {
+  padding: 12px 0;
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #204060;
+  caption-side: top;
+  letter-spacing: 0.03em;
+}
+
+.spec-table thead th {
+  background-color: #204060;
+  color: #fff;
+  padding: 12px 10px;
+  border-bottom: 2px solid #18314F;
+  text-align: left;
+  letter-spacing: 0.03em;
+  font-size: 1.05em;
+}
+
+.spec-table tbody tr {
+  transition: background 0.25s;
+}
+
+.spec-table tbody tr:nth-child(even) {
+  background-color: #f4f8fb;
+}
+
+.spec-table tbody tr:hover {
+  background-color: #e7eff6;
+}
+
+.spec-table td {
+  padding: 10px 8px;
+  border-bottom: 1px solid #dee3eb;
+  color: #203040;
+  font-size: 1em;
+}
+
+.spec-table th,
+.spec-table td {
+  vertical-align: top;
+}
