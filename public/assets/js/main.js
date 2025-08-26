@@ -1443,7 +1443,7 @@
     =            light gallery active            =
     =============================================*/
 
-  $(".video-popup").lightGallery();
+  // $(".video-popup").lightGallery();
   $(".image-popup").lightGallery({
     selector: ".single-gallery-thumb"
   });

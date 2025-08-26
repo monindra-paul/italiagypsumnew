@@ -25,4 +25,9 @@ class PagesController extends Controller
     {
         return view('frontend.pages.gallery');
     }
+
+    public function resources()
+    {
+        return view('frontend.pages.resources');
+    }
 }

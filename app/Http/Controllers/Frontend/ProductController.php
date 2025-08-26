@@ -57,4 +57,24 @@ class ProductController extends Controller
     {
         return view('frontend.products.jointingcom');
     }
+
+    public function sixtycm()
+    {
+        return view('frontend.products.60cm');
+    }
+
+    public function hcm()
+    {
+        return view('frontend.products.100cm');
+    }
+
+    public function grg()
+    {
+        return view('frontend.products.grg');
+    }
+
+    public function putty()
+    {
+        return view('frontend.products.putty');
+    }
 }

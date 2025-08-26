@@ -12,7 +12,7 @@
             </div>
             <div class="col-md-6">
                 <div class="support-footer__single support-footer__single--dark bg-img" data-bg="assets/img/icons/support.png">
-                    Support: (+00)888.666.88
+                    Support: +965 9922 6411
                 </div>
             </div>
         </div>
@@ -25,66 +25,62 @@
                 <div class="col-lg-12">
                     <div class="footer-content-wrapper">
                         <div class="row">
-                            <div class="col-lg-6 col-md-12">
+                            <div class="col-lg-4 col-md-12">
                                 <!-- footer intro wrapper -->
                                 <div class="footer-intro-wrapper">
                                     <div class="footer-logo">
                                         <a href="#">
-                                            <img src="assets/img/italia/logo/italiyawhite.png" class="img-fluid" alt="" width="40%">
+                                            <img src="assets/img/italia/logo/italiyawhite.png" class="img-fluid" alt="" width="60%">
                                         </a>
                                     </div>
-                                    <div class="footer-desc">Italia gypsum is a leading gypsum based company dedicated to revolutionizing the way we generate and consume energy.
-
-
+                                    <div class="footer-desc">Established in 1994, Italia Gypsum is one of Kuwait’s leading providers of gypsum products and building solutions. From ceiling tiles, moldings, and GRG panels to complete design and execution, our team of 150+ professionals has delivered excellence across villas, palaces, universities, and malls.
                                     </div>
                                     <div class="social-links">
                                         <ul>
-                                            <li><a href="http://facebook.com/" data-tippy="Facebook" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="ion-social-facebook"></i></a></li>
-                                            <li><a href="http://twitter.com/" data-tippy="Twitter" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="ion-social-twitter"></i></a></li>
-                                            <li><a href="http://vimeo.com/" data-tippy="Vimeo" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="ion-social-vimeo"></i></a></li>
-                                            <li><a href="http://linkedin.com/" data-tippy="Linkedin" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="ion-social-linkedin"></i></a></li>
-                                            <li><a href="http://skype.com/" data-tippy="Skype" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="ion-social-skype"></i></a></li>
+                                            
+                                            <li><a href="https://www.linkedin.com/company/italiagypsum/" data-tippy="Linkedin" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="ion-social-linkedin"></i></a></li>
+                                            <li><a href="https://www.instagram.com/italiagypsum/" data-tippy="Instagram" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="ion-social-instagram"></i></a></li>
+                                            <li><a href="https://linktr.ee/italiagypsum" data-tippy="Link" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="fa-brands fa-instagram"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-md-4">
+                            <div class="col-lg-3 col-md-4">
                                 <!-- footer widget -->
                                 <div class="footer-widget">
-                                    <h4 class="footer-widget__title">USEFUL LINKS</h4>
+                                    <h4 class="footer-widget__title">Useful Pages</h4>
                                     <ul class="footer-widget__navigation">
-                                        <li><a href="#">Track</a></li>
-                                        <li><a href="#">Logistics</a></li>
-                                        <li><a href="#">Global Agents</a></li>
-                                        <li><a href="#">Network</a></li>
-                                        <li><a href="#">FAQ</a></li>
+                                        <li><a href="{{route('about')}}">About Us</a></li>
+                                        <li><a href="{{route('whyitalia')}}">Why Italia</a></li>
+                                        <li><a href="{{route('gallery')}}">Gallery</a></li>
+                                        <li><a href="#">Projects</a></li>
+                                        <li><a href="{{route('contact')}}">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4">
+                                <!-- footer widget -->
+                                <div class="footer-widget">
+                                    <h4 class="footer-widget__title">Gypsum Board</h4>
+                                    <ul class="footer-widget__navigation">
+                                        <li><a href="{{route('board.regular')}}">Regular Gypsum Board</a></li>
+                                        <li><a href="{{route('board.moisture')}}">Moisture Gypsum Board</a></li>
+                                        <li><a href="{{route('board.fire')}}">Fire Gypsum Board</a></li>
+                                        <li><a href="{{route('board.fmr')}}">Fire & Moisture Gypsum Board</a></li>
+                                      
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-2 col-md-4">
                                 <!-- footer widget -->
                                 <div class="footer-widget">
-                                    <h4 class="footer-widget__title">COMPANY</h4>
+                                    <h4 class="footer-widget__title">Gypsum Plaster</h4>
                                     <ul class="footer-widget__navigation">
-                                        <li><a href="#">About</a></li>
-                                        <li><a href="#">Expertise</a></li>
-                                        <li><a href="#">Sustainability</a></li>
-                                        <li><a href="#">News & Media</a></li>
-                                        <li><a href="#">Case Studies</a></li>
-                                        <li><a href="#">Contacts</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-2 col-md-4">
-                                <!-- footer widget -->
-                                <div class="footer-widget">
-                                    <h4 class="footer-widget__title">INDUSTRIES</h4>
-                                    <ul class="footer-widget__navigation">
-                                        <li><a href="#">Electronic Materials</a></li>
-                                        <li><a href="#">Gifts & Apparel</a></li>
-                                        <li><a href="#">Auto Parts</a></li>
-                                        <li><a href="#">Power Systems</a></li>
-                                        <li><a href="#">Building Management</a></li>
+                                        <li><a href="{{route('fineplaster')}}">Fine Plaster</a></li>
+                                        <li><a href="{{route('moulding')}}">Moulding Plaster</a></li>
+                                        <li><a href="{{route('vermiculite')}}">Vermiculite Plaster</a></li>
+                                        <li><a href="{{route('perlite')}}">Paralite Plaster</a></li>
+                                        <li><a href="{{route('machine')}}">Machine Plaster</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -98,7 +94,7 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="footer-copyright-left">
-                                    &copy; <script>document.write(new Date().getFullYear() + ' ');</script> Industrial Template by HasThemes
+                                    &copy; <script>document.write(new Date().getFullYear() + ' ');</script> All Copyright Reserved Italia Gypsum
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -126,7 +122,7 @@
                         <!-- logo -->
                         <div class="logo">
                             <a href="index.html">
-                                <img src="assets/img/logo/logo-dark.png" class="img-fluid" alt="">
+                                <img src="assets/img/italia/logo/italia-logo.png" class="img-fluid" alt="">
                             </a>
                         </div>
                     </div>
@@ -145,184 +141,83 @@
             <nav class="offcanvas-navigation">
                 <ul>
                     <li class="has-children">
-                        <a href="#">Home</a>
-                        <ul class="sub-menu">
-                            <li><a href="index.html">Main Homepage</a></li>
-                            <li><a href="index-2.html">Essential 1 Homepage</a></li>
-                            <li><a href="index-3.html">Simple Homepage</a></li>
-                            <li><a href="index-4.html">Header Left Homepage</a></li>
-                            <li><a href="index-5.html">Homepage 11</a></li>
-                            <li><a href="index-6.html">Classic Homepage</a></li>
-                            <li><a href="index-7.html">Essential 2 Homepage</a></li>
-                            <li><a href="index-8.html">Multi Card Homepage</a></li>
-                            <li><a href="index-9.html">Modern Homepage</a></li>
-                            <li><a href="index-10.html">Bold & Strong Homepage</a></li>
-                            <li><a href="index-11.html">Box Homepage</a></li>
-                            <li><a href="index-12.html">Home Demo 12</a></li>
-                            <li><a href="index-13.html">Home Demo 13</a></li>
-                            <li><a href="index-14.html">Home Demo 14</a></li>
-                        </ul>
+                        <a href="{{route('home')}}">Home</a>
                     </li>
+
+
                     <li class="has-children">
-                        <a href="#">Pages</a>
-                        <ul class="sub-menu">
-                            <li class="has-children">
-                                <a href="#">Page list 01</a>
-                                <ul class="sub-menu">
-                                    <li><a href="page-about.html">About 01</a></li>
-                                    <li><a href="page-about-2.html">About 02</a></li>
-                                    <li><a href="page-contact.html">Contact Us 01</a></li>
-                                    <li><a href="page-contact-2.html">Contact Us 02</a></li>
-                                    <li><a href="404.html">Not Found</a></li>
-                                    <li><a href="site-maintenance.html">Under Construction</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="#">Page list 02</a>
-                                <ul class="sub-menu">
-                                    <li><a href="page-history.html">History</a></li>
-                                    <li><a href="page-leadership.html">Leadership</a></li>
-                                    <li><a href="page-partner.html">Partners & Clients</a></li>
-                                    <li><a href="page-faq.html">FAQ's</a></li>
-                                    <li><a href="page-award.html">Award & Recognition</a></li>
-                                    <li><a href="page-career.html">Career</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="#">Page list 03</a>
-                                <ul class="sub-menu">
-                                    <li><a href="icon-flat.html">Icon Flat</a></li>
-                                    <li><a href="icon-tractor.html">Icon Tractor</a></li>
-                                    <li><a href="icon-icomoon.html">Icon Icomoon</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <a href="{{route('about')}}">About Us</a>                       
                     </li>
+
                     <li class="has-children">
-                        <a href="javascript:void(0)">Industries</a>
-                        <ul class="sub-menu">
-                            <li class="has-children">
-                                <a href="#">Grid</a>
-                                <ul class="sub-menu">
-                                    <li><a href="industries-grid.html">Industries Grid 1</a></li>
-                                    <li><a href="industries-grid-2.html">Industries Grid 2</a></li>
-                                    <li><a href="industries-grid-3.html">Industries Grid 3</a></li>
-                                    <li><a href="industries-grid-4.html">Industries Grid 4</a></li>
-                                    <li><a href="industries-grid-5.html">Industries Grid 5</a></li>
-                                    <li><a href="industries-grid-6.html">Industries Grid 6</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="#">Carousel</a>
-                                <ul class="sub-menu">
-                                    <li><a href="industries-carousel.html">Industries Carousel 1</a></li>
-                                    <li><a href="industries-carousel-2.html">Industries Carousel 2</a></li>
-                                    <li><a href="industries-carousel-3.html">Industries Carousel 3</a></li>
-                                    <li><a href="industries-carousel-4.html">Industries Carousel 4</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <a href="{{route('about')}}">Why Italia</a>                       
                     </li>
+
                     <li class="has-children">
-                        <a href="javascript:void(0)">Case Studies</a>
+                        <a href="#">Products</a>
                         <ul class="sub-menu">
-                            <li><a href="case-studies-grid-caption.html">Case Studies Grid Caption 01</a></li>
-                            <li><a href="case-studies-grid-caption-2.html">Case Studies Grid Caption 02</a></li>
-                            <li><a href="case-studies-grid.html">Case Studies Grid</a></li>
-                            <li><a href="case-study-single-slider.html">Single Case Study Slider</a></li>
-                            <li><a href="case-study-single-gallery.html">Single Case Study Gallery</a></li>
                             <li class="has-children">
-                                <a href="#">Submenu Level One</a>
+                                <a href="#">Gypsum Boards</a>
                                 <ul class="sub-menu">
-                                    <li class="has-children">
-                                        <a href="#">Submenu Level Two</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Submenu Level Three</a></li>
-                                            <li><a href="#">Submenu Level Three</a></li>
-                                            <li><a href="#">Submenu Level Three</a></li>
-                                            <li><a href="#">Submenu Level Three</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Submenu Level Two</a></li>
-                                    <li><a href="#">Submenu Level Two</a></li>
-                                    <li><a href="#">Submenu Level Two</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="#">Submenu Level One</a>
-                                <ul class="sub-menu">
-                                    <li class="has-children">
-                                        <a href="#">Submenu Level Two</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="#">Submenu Level Three</a></li>
-                                            <li><a href="#">Submenu Level Three</a></li>
-                                            <li><a href="#">Submenu Level Three</a></li>
-                                            <li><a href="#">Submenu Level Three</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Submenu Level Two</a></li>
-                                    <li><a href="#">Submenu Level Two</a></li>
-                                    <li><a href="#">Submenu Level Two</a></li>
+                                    <li><a href="{{route('board.regular')}}">Regular Gypsum Board</a></li>
+                                    <li><a href="{{route('board.moisture')}}">Moisture Gypsum Board</a></li>
+                                    <li><a href="{{route('board.fire')}}">Fire Resistant Gypsum Board</a></li>
+                                    <li><a href="{{route('board.fmr')}}">Fire & Moisture Gypsum Board</a></li>
+                                    
                                 </ul>
                             </li>
 
+                             <li class="has-children">
+                                <a href="#">Gypsum Plaster</a>
+                                <ul class="sub-menu">
+                                    <li><a href="{{route('fineplaster')}}">Fine Plaster</a></li>
+                                    <li><a href="{{route('moulding')}}">Moulding Plaster</a></li>
+                                    <li><a href="{{route('vermiculite')}}">Vermiculite Plasters</a></li>
+                                    <li><a href="{{route('perlite')}}">Paralite Plasters</a></li>
+                                    <li><a href="{{route('machine')}}">Machine Plasters</a></li>
+                                    
+                                </ul>
+                            </li>
+
+
+                            <li class="has-children">
+                                <a href="#">Ceiling Tiles</a>
+                                <ul class="sub-menu">
+                                    <li><a href="{{route('60ceilingtiles')}}">60 x 60 cm</a></li>
+                                    <li><a href="{{route('hcm')}}">60 x 100 cm</a></li>
+                                    <li><a href="{{route('grg')}}">GRG / GRC Panels</a></li>
+                                    
+                                </ul>
+                            </li>
+
+
+                            <li class="has-children">
+                                <a href="#">Jointing Compound</a>
+                                <ul class="sub-menu">
+                                    <li><a href="{{route('jointingcomp')}}">Jointing Compound</a></li>
+                                    <li><a href="{{route('putty')}}">Wall Putty</a></li>
+                                    {{-- <li><a href="{{route('grg')}}">GRG / GRC Panels</a></li> --}}
+                                    
+                                </ul>
+                            </li>
+
+
+                           
                         </ul>
                     </li>
+
                     <li class="has-children">
-                        <a href="javascript:void(0)">Blog</a>
-                        <ul class="sub-menu">
-                            <li class="has-children">
-                                <a href="#">Blog layouts 01</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-list.html">Blog List</a></li>
-                                    <li><a href="blog-metro.html">Blog Metro</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="#">Blog layouts 02</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-grid-classic.html">Blog Grid Classic 1</a></li>
-                                    <li><a href="blog-grid-classic-2.html">Blog Grid Classic 2</a></li>
-                                    <li><a href="blog-grid-classic-3.html">Blog Grid Classic 3</a></li>
-                                    <li><a href="blog-grid-classic-4.html">Blog Grid Classic 4</a></li>
-                                    <li><a href="blog-grid-classic-5.html">Blog Grid Classic 5</a></li>
-                                    <li><a href="blog-grid-simple.html">Blog Grid Simple</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="#">Blog layouts 03</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-carousel.html">Blog Carousel</a></li>
-                                    <li><a href="blog-carousel-2.html">Blog Carousel 2</a></li>
-                                    <li><a href="blog-carousel-3.html">Blog Carousel 3</a></li>
-                                    <li><a href="blog-carousel-4.html">Blog Carousel 4</a></li>
-                                    <li><a href="blog-carousel-5.html">Blog Carousel 5</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <a href="#">Single Blog</a>
-                                <ul class="sub-menu">
-                                    <li><a href="blog-post-image.html">Image format</a></li>
-                                    <li><a href="blog-post-gallery.html">Gallery format</a></li>
-                                    <li><a href="blog-post-video.html">Video format</a></li>
-                                    <li><a href="blog-post-audio.html">Audio format</a></li>
-                                    <li><a href="blog-post-link.html">Link format</a></li>
-                                    <li><a href="blog-post-quote.html">Quote format</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <a href="{{route('about')}}">Projects</a>                       
                     </li>
+                   
                     <li class="has-children">
-                        <a href="javascript:void(0)">Shop</a>
-                        <ul class="sub-menu">
-                            <li><a href="shop.html">Shop Page</a></li>
-                            <li><a href="shop-product.html">Single Product</a></li>
-                            <li><a href="shop-cart.html">Cart</a></li>
-                            <li><a href="shop-wishlist.html">Wishlist</a></li>
-                            <li><a href="shop-checkout.html">Checkout</a></li>
-                            <li><a href="shop-my-account.html">My Account</a></li>
-                        </ul>
+                        <a href="{{route('gallery')}}">Gallery</a>                       
                     </li>
+                   
+                    <li class="has-children">
+                        <a href="{{route('contact')}}">Contact Us</a>                       
+                    </li>
+                   
                 </ul>
             </nav>
         </div>

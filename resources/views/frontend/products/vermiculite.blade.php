@@ -28,14 +28,14 @@
     <div class="row align-items-center">
         <div class="col-md-5">
             <div class="feature-project-single-slide__image">
-                <img src="assets/img/italia/product/vermiculite.jpg" style="border-radius: 10px;" class="img-fluid" alt="" />
+                <img src="assets/img/italia/product/vermiculite-new.jpg" style="border-radius: 10px;" class="img-fluid" alt="" />
             </div>
         </div>
         <div class="col-md-7">
             <div class="feature-project-single-slide__content">
                 <!-- section title left align -->
                 <div class="section-title-area">
-                    <img src="assets/img/italia/product/fine-name.png" alt="" srcset="">
+                    <img src="assets/img/italia/logo/icon.png" alt="" srcset="">
                     {{-- <h4 class="subtitle">Italia Vermiculite Plaster</h4> --}}
                     <h2 class="title title--left">Italia Vermiculite Plaster</h2>
                 </div>

@@ -4,7 +4,7 @@
 
  <!--====================  breadcrumb area ====================-->
     <div class="breadcrumb-area breadcrumb-area-bg section-space--inner--80 bg-img"
-        data-bg="assets/img/backgrounds/19.jpg">
+        data-bg="assets/img/italia/pages/common-1.jpg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-6">

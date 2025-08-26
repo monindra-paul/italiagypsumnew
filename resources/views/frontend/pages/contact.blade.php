@@ -3,7 +3,7 @@
 
  <!--====================  breadcrumb area ====================-->
     <div class="breadcrumb-area breadcrumb-area-bg section-space--inner--80 bg-img"
-        data-bg="assets/img/backgrounds/19.jpg">
+        data-bg="assets/img/italia/pages/common-1.jpg">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-6">
@@ -34,7 +34,7 @@
                                 <ul class="info-list">
                                     <li class="address">Office 4 , Floor 10, Kamco Invest Tower, Al-Shuaida Street, Sharq, Kuwait City - 13149</li>
                                     <li class="email">reception@italiagypsum.com</li>
-                                    <li class="phone">+965 41157633</li>
+                                    <li class="phone">+965 9922 6411</li>
                                 </ul>
                                 <a href="#" class="see-more-link see-more-link--dark  see-more-link--dark--style2">GET
                                     DIRECTION <i class="ion-arrow-right-c"></i></a>
@@ -44,14 +44,14 @@
                     <div class="col-md-4">
                         <div class="contact-location-grid__single">
                             <div class="contact-location-grid__image">
-                                <img src="assets/img/contact/2.jpg" class="img-fluid" alt="">
+                                <img src="assets/img/italia/pages/plant.jpeg" class="img-fluid" alt="" style="border-radius: 10px">
                             </div>
                             <div class="contact-location-grid__content">
                                 <h2 class="title">Gypsum Board plant</h2>
                                 <ul class="info-list">
                                     <li class="address">Western Insdustrial Al Shuaiaba, Block 9, Plot No. 39, Kuwait  </li>
                                     <li class="email">reception@italiagypsum.com</li>
-                                    <li class="phone">+965 41157633</li>
+                                    <li class="phone">+965 9922 6411</li>
                                 </ul>
                                 <a href="https://g.co/kgs/MgY95y4" target="__blank" class="see-more-link see-more-link--dark  see-more-link--dark--style2">GET
                                     DIRECTION <i class="ion-arrow-right-c"></i></a>
@@ -68,7 +68,7 @@
                                 <ul class="info-list">
                                     <li class="address">2005 Stokes Isle Apt. 896, Venaville 10010, United State</li>
                                     <li class="email">reception@italiagypsum.com</li>
-                                    <li class="phone">+965 41157633</li>
+                                    <li class="phone">+965 9922 6411</li>
                                 </ul>
                                 <a href="#" class="see-more-link see-more-link--dark  see-more-link--dark--style2">GET
                                     DIRECTION <i class="ion-arrow-right-c"></i></a>
@@ -118,7 +118,7 @@
                                 <h2 class="title mb-0">Follow us</h2>
                             </div>
                             <ul class="contact-social-link-list">
-                                <li>
+                                {{-- <li>
                                     <a href="#">
                                         <i class="ion-social-twitter link-icon"></i><span
                                             class="link-text">Twitter</span>
@@ -129,10 +129,10 @@
                                         <i class="ion-social-facebook link-icon"></i><span
                                             class="link-text">Facebook</span>
                                     </a>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <a href="#">
-                                        <i class="ion-social-vimeo link-icon"></i><span class="link-text">Vimeo</span>
+                                        <i class="ion-social-instagram link-icon"></i><span class="link-text">Instagram</span>
                                     </a>
                                 </li>
                                 <li>

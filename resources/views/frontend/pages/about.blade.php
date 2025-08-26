@@ -30,7 +30,7 @@
                         <div class="row g-0">
                             <div class="col-lg-5">
                                 <!-- feature background -->
-                                <div class="feature-background__image feature-background__image--style2 bg-img" data-bg="assets/img/backgrounds/14.jpg"></div>
+                                <div class="feature-background__image feature-background__image--style2 bg-img" data-bg="assets/img/italia/about/aboutleft.webp"></div>
                             </div>
                             <div class="col-lg-7">
                                 <!-- feature content -->
@@ -52,7 +52,7 @@
 In 2024, Mr. Fouzan Alfouzan took the reins and led the company into gypsum-board manufacturing, making Italia Gypsum the biggest player in that space in Kuwait. Looking ahead, they’re gearing up to start cement-board production too. It’s a company that’s built on experience, quality, and a drive to keep moving forward.</p>
                                                 </div>
                                                 <div class="col-lg-6">
-                                                    <a href="#" class="ht-btn ht-btn--default ht-btn--default--style4" style="border-radius: 5px">View Company Profile</a>
+                                                    <a href="https://drive.google.com/file/d/1Q1W3tNDwjJjUbgUZ4qWZbKYe7l3tRw20/view" target="__blank" class="ht-btn ht-btn--default ht-btn--default--style4" style="border-radius: 5px">View Company Profile</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -246,7 +246,7 @@ In 2024, Mr. Fouzan Alfouzan took the reins and led the company into gypsum-boar
 
 
 
-
+{{-- 
 
         <!--====================  about responsibility area ====================-->
         <div class="about-responsibility-area section-space--inner--120 grey-bg">
@@ -345,7 +345,7 @@ In 2024, Mr. Fouzan Alfouzan took the reins and led the company into gypsum-boar
                 </div>
             </div>
         </div>
-        <!--====================  End of about list content area  ====================-->
+        <!--====================  End of about list content area  ====================--> --}}
     </div>
     <!--====================  End of page content wrapper  ====================-->
 

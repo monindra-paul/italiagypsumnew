@@ -14,6 +14,8 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about-us', [PagesController::class, 'about'])->name('about');
 Route::get('/contact-us', [PagesController::class, 'contact'])->name('contact');
 Route::get('/why-italia', [PagesController::class, 'whyitalia'])->name('whyitalia');
+Route::get('/resources', [PagesController::class, 'resources'])->name('resources');
+
 
 Route::get('/regular-gypsum-board', [ProductController::class, 'regular'])->name('board.regular');
 Route::get('/moisture-gypsum-board', [ProductController::class, 'moisture'])->name('board.moisture');
@@ -27,6 +29,14 @@ Route::get('/vermiculite-plaster', [ProductController::class, 'vermiculiteplaste
 Route::get('/perlite-plaster', [ProductController::class, 'perlite'])->name('perlite');
 Route::get('/machine-plaster', [ProductController::class, 'machine'])->name('machine');
 
+
 Route::get('/jointing-compound', [ProductController::class, 'jointing'])->name('jointingcomp');
+Route::get('/wall-putty', [ProductController::class, 'putty'])->name('putty');
+
 
 Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
+
+
+Route::get('/60cm-ceiling-tiles', [ProductController::class, 'sixtycm'])->name('60ceilingtiles');
+Route::get('/100cm-ceiling-tiles', [ProductController::class, 'hcm'])->name('hcm');
+Route::get('/grg-panels', [ProductController::class, 'grg'])->name('grg');

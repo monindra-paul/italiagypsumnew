@@ -28,14 +28,14 @@
     <div class="row align-items-center">
         <div class="col-md-5">
             <div class="feature-project-single-slide__image">
-                <img src="assets/img/italia/product/vermiculite.jpg" style="border-radius: 10px;" class="img-fluid" alt="" />
+                <img src="assets/img/italia/product/machine-palster.webp" style="border-radius: 10px;" class="img-fluid" alt="" />
             </div>
         </div>
         <div class="col-md-7">
             <div class="feature-project-single-slide__content">
                 <!-- section title left align -->
                 <div class="section-title-area">
-                    <img src="assets/img/italia/product/fine-name.png" alt="" srcset="">
+                    <img src="assets/img/italia/logo/icon.png" alt="" srcset="">
                     {{-- <h4 class="subtitle">Italia Vermiculite Plaster</h4> --}}
                     <h2 class="title title--left">Italia Machine Plaster</h2>
                 </div>
@@ -72,7 +72,7 @@
 
         <div class="col-6">
             <h2 class="text-center"> Why Italia Machine Plaster? </h2>
-            <img class="mt-2" src="assets/img/italia/product/paralite.png" alt="" srcset="" width="100%">
+            <img class="mt-2" src="assets/img/italia/product/m-p-p.png" alt="" srcset="" width="100%">
         </div>
         <div class="col-6">
             <h2 class="text-center">Italia Plaster Product Range</h2>
@@ -99,42 +99,19 @@
                         <td>White powder</td>
                     </tr>
                     <tr>
-                        <td>Density kg/m³ (Max)	 </td>
-                        <td>700-74</td>
+                        <td>Water/Plaster Ratio	 </td>
+                        <td>60 - 65%
+</td>
                     </tr>
                     <tr>
                         <td>Setting Time </td>
-                        <td>20-25 mins.</td>
+                        <td>15-20 mins.</td>
                     </tr>
-                    <tr>
-                        <td>Compressive strength (N/mm²)	</td>
-                        <td> 3-6
-</td>
-                    </tr>
-                    <tr>
-                        <td>Transverse Strength (kg/cm²)	 </td>
-                        <td>30-40
-</td>
-                    </tr>
-                    <tr>
-                        <td>Water to Material Ratio	 </td>
-                        <td>1 : 1.5</td>
-                    </tr>
-                   {{-- <tr>
-                        <td>Recommended Water Addition</td>
-                        <td>20.5L per 30kg bag</td>
-                    </tr> --}}
-                    <tr>
-                        <td>Coating Thickness	</td>
-                        <td>1 : 1.5 mm</td>
-                    </tr>
-                    <tr>
-                        <td>Shelf Life	</td>
-                        <td>12 months From the date of manufacturing, when stored is dry conditions.</td>
-                    </tr>
+                    
                     <tr>
                         <td>Coverage (1kg)		</td>
-                        <td>0.75 - 0.80 sq.ft. with 15mm Thickness</td>
+                        <td>12 kg / sq.m for 1 cmm thickness
+</td>
                     </tr>
                 </tbody>
             </table>

@@ -36,7 +36,7 @@
             <div class="feature-project-single-slide__content">
                 <!-- section title left align -->
                 <div class="section-title-area">
-                    <img src="assets/img/italia/product/fine-name.png" alt="" srcset="">
+                    <img src="assets/img/italia/logo/icon.png" alt="" srcset="">
                     {{-- <h4 class="subtitle">Italia Fine Plaster</h4> --}}
                     <h2 class="title title--left">Italia Fine Plaster</h2>
                 </div>
