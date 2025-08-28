@@ -77,4 +77,9 @@ class ProductController extends Controller
     {
         return view('frontend.products.putty');
     }
+
+    public function cornices()
+    {
+        return view('frontend.products.cornices');
+    }
 }

@@ -132,7 +132,7 @@ Sharq</h6>
                                                             <li><a href="{{route('60ceilingtiles')}}">60cm X 60cm Tiles </a></li>
                                                             <li><a href="{{route('hcm')}}">60cm X 100cm Tiles </a></li>
                                                             <li><a href="{{route('grg')}}">GRG / GRC Panels </a></li>
-                                                            {{-- <li><a href="#">Cronices </a></li>                                                             --}}
+                                                            <li><a href="#">Cronices </a></li>                                                            
                                                         </ul>
                                                     </li>
                                                     

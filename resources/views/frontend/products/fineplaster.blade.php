@@ -29,7 +29,7 @@
     <div class="row align-items-center">
         <div class="col-md-5">
             <div class="feature-project-single-slide__image">
-                <img src="assets/img/italia/product/fine-plaster-main.png" class="img-fluid" alt="" />
+                <img src="assets/img/italia/product/fineplasternew.png" class="img-fluid" alt="" style="border-radius: 10px"/>
             </div>
         </div>
         <div class="col-md-7">

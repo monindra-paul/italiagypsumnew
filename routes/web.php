@@ -40,3 +40,4 @@ Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
 Route::get('/60cm-ceiling-tiles', [ProductController::class, 'sixtycm'])->name('60ceilingtiles');
 Route::get('/100cm-ceiling-tiles', [ProductController::class, 'hcm'])->name('hcm');
 Route::get('/grg-panels', [ProductController::class, 'grg'])->name('grg');
+Route::get('/cornices', [ProductController::class, 'cornices'])->name('cornices');
