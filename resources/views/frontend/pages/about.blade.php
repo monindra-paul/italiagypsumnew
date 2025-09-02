@@ -86,7 +86,7 @@
                                                 </p>
                                             </div>
                                             <div class="col-lg-6">
-                                                <a href="https://drive.google.com/file/d/1Q1W3tNDwjJjUbgUZ4qWZbKYe7l3tRw20/view"
+                                                <a href="https://drive.google.com/file/d/1IJCo4xDV-8EKs9IR4kkNU_lqjj-R1zcd/view"
                                                     target="__blank"
                                                     class="ht-btn ht-btn--default ht-btn--default--style4"
                                                     style="border-radius: 5px">View Company Profile</a>

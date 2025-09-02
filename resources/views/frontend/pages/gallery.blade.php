@@ -25,7 +25,7 @@
 </div>
 <!--====================  End of breadcrumb area  ====================-->
 
-<div class="page-content-wrapper section-space--inner--120">
+<div class="page-content-wrapper section-space--inner--60">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

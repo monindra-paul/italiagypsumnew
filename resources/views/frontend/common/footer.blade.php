@@ -12,7 +12,7 @@
             </div>
             <div class="col-md-6">
                 <div class="support-footer__single support-footer__single--dark bg-img" data-bg="assets/img/icons/support.png">
-                    Support: +965 9922 6411
+                    Support: +965 9922 6411 / +965 2240 1128
                 </div>
             </div>
         </div>
@@ -38,9 +38,9 @@
                                     <div class="social-links">
                                         <ul>
                                             
-                                            <li><a href="https://www.linkedin.com/company/italiagypsum/" data-tippy="Linkedin" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="ion-social-linkedin"></i></a></li>
-                                            <li><a href="https://www.instagram.com/italiagypsum/" data-tippy="Instagram" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="ion-social-instagram"></i></a></li>
-                                            <li><a href="https://linktr.ee/italiagypsum" data-tippy="Link" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="fa-brands fa-instagram"></i></a></li>
+                                            <li><a href="https://www.linkedin.com/company/italiagypsum/" target="_blank" data-tippy="Linkedin" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="ion-social-linkedin"></i></a></li>
+                                            <li><a href="https://www.instagram.com/italiagypsum/" target="_blank" data-tippy="Instagram" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="ion-social-instagram"></i></a></li>
+                                            <li><a href="https://linktr.ee/italiagypsum"  target="_blank" data-tippy="Link" data-tippy-inertia="false" data-tippy-animation="shift-away" data-tippy-delay="50" data-tippy-arrow="true" data-tippy-theme="sharpborder__black" data-tippy-placement="top"><i class="fa-brands fa-instagram"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@
                                         <li><a href="{{route('about')}}">About Us</a></li>
                                         <li><a href="{{route('whyitalia')}}">Why Italia</a></li>
                                         <li><a href="{{route('gallery')}}">Gallery</a></li>
-                                        <li><a href="#">Projects</a></li>
+                                        <li><a href="{{url('/projects')}}">Projects</a></li>
                                         <li><a href="{{route('contact')}}">Contact Us</a></li>
                                     </ul>
                                 </div>
@@ -186,6 +186,7 @@
                                     <li><a href="{{route('60ceilingtiles')}}">60 x 60 cm</a></li>
                                     <li><a href="{{route('hcm')}}">60 x 100 cm</a></li>
                                     <li><a href="{{route('grg')}}">GRG / GRC Panels</a></li>
+                                    <li><a href="{{route('cornices')}}">Cornices</a></li>
                                     
                                 </ul>
                             </li>
@@ -215,6 +216,10 @@
                     </li>
                    
                     <li class="has-children">
+                        <a href="{{route('resources')}}">Resources</a>                       
+                    </li>
+                   
+                    <li class="has-children">
                         <a href="{{route('contact')}}">Contact Us</a>                       
                     </li>
                    
@@ -223,17 +228,7 @@
         </div>
     </div>
     <!--====================  End of mobile menu overlay  ====================-->
-    <!--====================  search overlay ====================-->
-    <div class="search-overlay" id="search-overlay">
-        <a id="popup-search-close" href="#" class="popup-search-close"><i class="ion-ios-close-empty"></i></a>
-        <div class="page-popup-search-inner">
-            <form action="#">
-                <input type="text" class="search-field" id="search-field">
-            </form>
-            <p class="form-description">Hit enter to search or ESC to close</p>
-        </div>
-    </div>
-    <!--====================  End of search overlay  ====================-->
+   
     <!--====================  scroll top ====================-->
     <a href="#" class="scroll-top" id="scroll-top">
         <i class="ion-android-arrow-up"></i>

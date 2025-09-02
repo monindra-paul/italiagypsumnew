@@ -184,13 +184,13 @@
 <br>
 <br>
                             Gypsum- Calcium Sulphate Dihydrate, is one of the most commonly found mineral in the earth crust. It can be mined, processed and converted into various forms for using in construction, decorations and agriculture. Based on scientific evidences we present you the history of gypsum and how various civilisations used this magic rock.</p>
-                        <a href="page-about.html" class="ht-btn ht-btn--default ht-btn--default--style2">ABOUT US</a>
+                        <a href="{{url('/about-us')}}" class="ht-btn ht-btn--default ht-btn--default--style2">ABOUT US</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-7 col-md-6">
                 <!-- feature background -->
-                <div class="feature-background__image bg-img" data-bg="https://www.italiagypsum.com/assets/images/italia/gypsum-timeline.svg" width="" style="background-image: url(&quot;https://www.italiagypsum.com/assets/images/italia/gypsum-timeline.svg&quot;);"></div>
+                <div class="feature-background__image bg-img" data-bg="assets/img/italia/pages/gypsum-timeline.svg" width="" style="background-image: url(&quot;assets/img/italia/pages/gypsum-timeline.svg&quot;);"></div>
             </div>
         </div>
     </div>

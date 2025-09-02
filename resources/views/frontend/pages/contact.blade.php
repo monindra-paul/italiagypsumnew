@@ -131,12 +131,12 @@
                                     </a>
                                 </li> --}}
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.instagram.com/italiagypsum/" target="_blank">
                                         <i class="ion-social-instagram link-icon"></i><span class="link-text">Instagram</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.linkedin.com/company/italiagypsum" target="_blank">
                                         <i class="ion-social-linkedin link-icon"></i><span
                                             class="link-text">Linkedin</span>
                                     </a>

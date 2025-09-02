@@ -4,41 +4,41 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Italia Gypsum | Finest Quality</title>
+    <title>Italia Gypsum | Finest Quality | Made In Kuwait</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="icon" href="assets/img/favicon.png">
+    <link rel="icon" href="{{asset('assets/img/italia/logo/fav.png')}}">
 
     <!-- CSS
 	============================================ -->
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/vendor/bootstrap.min.css')}}">
 
     <!-- FontAwesome CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/font-awesome.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/vendor/font-awesome.min.css')}}">
 
     <!-- Ionicons CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/ionicons.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/vendor/ionicons.min.css')}}">
 
     <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/flaticon.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/vendor/flaticon.min.css')}}">
 
     <!-- Icomoon CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/icomoon.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/vendor/icomoon.min.css')}}">
 
     <!-- Tractor icon CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/tractor-icon.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/vendor/tractor-icon.min.css')}}">
 
     <!-- Swiper slider CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/swiper.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/plugins/swiper.min.css')}}">
 
     <!-- Animate CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/animate.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/plugins/animate.min.css')}}">
 
     <!-- Light gallery CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/lightgallery.min.css">
+    <link rel="stylesheet" href="{{asset('assets/css/plugins/lightgallery.min.css')}}">
 
     {{-- remixicon css --}}
 
@@ -46,14 +46,14 @@
 
 
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
 
 
 
     <!-- Revolution Slider CSS -->
-    <link href="assets/revolution/css/settings.css" rel="stylesheet">
-    <link href="assets/revolution/css/navigation.css" rel="stylesheet">
-    <link href="assets/revolution/custom-setting.css" rel="stylesheet">
+    <link href="{{asset('assets/revolution/css/settings.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/revolution/css/navigation.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/revolution/custom-setting.css')}}" rel="stylesheet">
 
 
 </head>
@@ -66,59 +66,60 @@
 
     @include('frontend.common.footer')
 
+     @yield('customjs')
  
  
  
  
  <!-- Modernizer JS -->
-    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="{{asset('assets/js/vendor/modernizr-2.8.3.min.js')}}"></script>
 
     <!-- jQuery JS -->
-    <script src="assets/js/vendor/jquery.min.js"></script>
+    <script src="{{asset('assets/js/vendor/jquery.min.js')}}"></script>
 
     <!-- Bootstrap JS -->
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="{{asset('assets/js/vendor/bootstrap.min.js')}}"></script>
 
 
  <!-- Chart JS -->
-    <script src="assets/js/plugins/chart.min.js"></script>
+    <script src="{{asset('assets/js/plugins/chart.min.js')}}"></script>
 
     <!-- Popper JS -->
-    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="{{asset('assets/js/vendor/popper.min.js')}}"></script>
 
     <!-- Swiper Slider JS -->
-    <script src="assets/js/plugins/swiper.min.js"></script>
+    <script src="{{asset('assets/js/plugins/swiper.min.js')}}"></script>
 
     <!-- Tippy JS -->
-    <script src="assets/js/plugins/tippy.min.js"></script>
+    <script src="{{asset('assets/js/plugins/tippy.min.js')}}"></script>
 
     <!-- Light gallery JS -->
-    <script src="assets/js/plugins/lightgallery.min.js"></script>
+    <script src="{{asset('assets/js/plugins/lightgallery.min.js')}}"></script>
 
     <!-- Light gallery video JS -->
-    <script src="assets/js/plugins/lg-video.min.js"></script>
+    <script src="{{asset('assets/js/plugins/lg-video.min.js')}}"></script>
 
     <!-- Waypoints JS -->
-    <script src="assets/js/plugins/waypoints.min.js"></script>
+    <script src="{{asset('assets/js/plugins/waypoints.min.js')}}"></script>
 
     <!-- Counter up JS -->
-    <script src="assets/js/plugins/counterup.min.js"></script>
+    <script src="{{asset('assets/js/plugins/counterup.min.js')}}"></script>
 
     <!-- Appear JS -->
-    <script src="assets/js/plugins/appear.min.js"></script>
+    <script src="{{asset('assets/js/plugins/appear.min.js')}}"></script>
 
     <!-- Gmap3 JS -->
-    <script src="assets/js/plugins/gmap3.min.js"></script>
+    <script src="{{asset('assets/js/plugins/gmap3.min.js')}}"></script>
 
     <!-- Isotope JS -->
-    <script src="assets/js/plugins/isotope.min.js"></script>
+    <script src="{{asset('assets/js/plugins/isotope.min.js')}}"></script>
 
     <!-- Mailchimp JS -->
-    <script src="assets/js/plugins/mailchimp-ajax-submit.min.js"></script>
+    <script src="{{asset('assets/js/plugins/mailchimp-ajax-submit.min.js')}}"></script>
 
 
     <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{asset('assets/js/main.js')}}"></script>
 
 
 
@@ -380,17 +381,17 @@
 
 
     <!-- Revolution Slider JS -->
-    <script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
-    <script src="assets/revolution/revolution-active.js"></script>
+    <script src="{{asset('assets/revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
+    <script src="{{asset('assets/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
+    <script src="{{asset('assets/revolution/revolution-active.js')}}"></script>
 
     <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="{{asset('assets/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+    <script src="{{asset('assets/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+    <script src="{{asset('assets/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
+    <script src="{{asset('assets/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+    <script src="{{asset('assets/revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+    <script src="{{asset('assets/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
 
     <!--=====  End of JS files ======-->
 

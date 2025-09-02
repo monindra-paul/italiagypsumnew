@@ -1,164 +1,117 @@
 @extends('frontend.layout.app')
 @section('content')
 
- <div class="breadcrumb-area breadcrumb-area-bg section-space--inner--80 bg-img" data-bg="assets/img/italia/pages/common-1.jpg">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-sm-6">
-                    <h2 class="breadcrumb-page-title">Award & Recognition</h2>
-                </div>
-                <div class="col-sm-6">
-                    <ul class="breadcrumb-page-list text-uppercase">
-                        <li class="has-children"><a href="index.html">Home</a></li>
-                        <li>Award & Recognition</li>
-                    </ul>
-                </div>
+<div class="breadcrumb-area breadcrumb-area-bg section-space--inner--80 bg-img"
+    data-bg="assets/img/italia/pages/common-1.jpg">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-sm-6">
+                <h2 class="breadcrumb-page-title">Resources</h2>
+            </div>
+            <div class="col-sm-6">
+                <ul class="breadcrumb-page-list text-uppercase">
+                    <li class="has-children"><a href="{{url('/')}}">Home</a></li>
+                    <li>Resources</li>
+                </ul>
             </div>
         </div>
     </div>
-    <!--====================  End of breadcrumb area  ====================-->
-    <!--====================  page content wrapper ====================-->
-    <div class="page-content-wrapper section-space--inner--120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="common-page-content">
-                        <div class="common-page-text-wrapper section-space--bottom--80">
-                            <h2 class="common-page-title">Top Sales Company Awards</h2>
-                            <p>Sales awards are the most common award given to Tractor, because it recognizes the company's outstanding performance. which helps drive the top-line revenue and growth. Monthly, quarterly, and annual awards recognizing their performance is something every sales person looks forward.</p>
+</div>
+<!--====================  End of breadcrumb area  ====================-->
+<!--====================  page content wrapper ====================-->
+<div class="page-content-wrapper section-space--inner--120">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-6">
+                    <div class="award-item__single">
+                        <div class="award-item__single">
+                            <div class="image">
+                                <img src="assets/img/italia/pages/resources/productcatelouge.png" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="content">
+                                <h3 class="title">Italia Product Catelouge</h3>
+                                <p>Our Product Catalogue is designed to give you a complete overview of our diverse
+                                    range of high-quality offerings. Each product featured in this catalogue reflects
+                                    our commitment to innovation, performance, and customer satisfaction.</p>
+                                     <button onclick="productcatelouge()">
+                                         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" x="0" y="0" viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><defs><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 512h512V0H0Z" fill="#ffffff" opacity="1" data-original="#000000"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)"><path d="M0 0h-66.864c-12.101 0-21.91 9.81-21.91 21.91v66.864z" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(457.214 415.726)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h200.156" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(190.984 342.267)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h200.156" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(190.984 286.68)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h200.156" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(190.984 231.091)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h64.997C77.099 0 86.91 9.811 86.91 21.914v13.148" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(335.242 33.796)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h-13.148C-25.25 0-35.062-9.811-35.062-21.914v-391.815c0-12.102 9.812-21.913 21.914-21.913h190.794" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(124.91 469.438)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0v-107.018c0-12.103 9.811-21.914 21.914-21.914h288.477c12.102 0 21.913 9.811 21.913 21.914v4.383" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(54.786 136.432)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h-13.148c-12.103 0-21.914-9.811-21.914-21.914v-252.11" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(89.848 443.142)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0v61.501c0 12.103 9.811 21.914 21.914 21.914H243.53l88.774-88.774v-324.954c0-12.103-9.811-21.914-21.913-21.914H21.914C9.811-352.227 0-342.416 0-330.313v297.627" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(124.91 421.085)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path></g></g></svg>
+                                    <span>View</span>
+                                     </button>
+                            </div>
+                           
                         </div>
 
-                        <div class="award-item__wrapper">
-                            <div class="award-item__single">
-                                <div class="image">
-                                    <img src="assets/img/award/1.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="content">
-                                    <h3 class="title">Paradox Acrylic Award 2006</h3>
-                                    <p>The Paradox Acrylic Award features clear and black 1" thick acrylic pieces with a cut-out and acrylic bars to give it a unique look. The award is for honoring the contribution to public initiatives for the community in 2006.</p>
-                                </div>
-                            </div>
-                            <div class="award-item__single">
-                                <div class="image">
-                                    <img src="assets/img/award/2.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="content">
-                                    <h3 class="title">Texas Blue Crown Award 2007</h3>
-                                    <p>The Texas Blue Crown Award features a carved optic artistic peak with blue crystal spotlight edges. This award is given to company with the highest sales values in 2007 across Texas state.</p>
-                                </div>
-                            </div>
-                            <div class="award-item__single">
-                                <div class="image">
-                                    <img src="assets/img/award/3.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="content">
-                                    <h3 class="title">Top 100 Global 2009</h3>
-                                    <p>Ranked 45 out of the top 100 influential companies across the globe, Tractor has firmly secured its place in the field and become the exemplary model for others to keep up the good work.</p>
-                                </div>
-                            </div>
-                            <div class="award-item__single">
-                                <div class="image">
-                                    <img src="assets/img/award/4.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="content">
-                                    <h3 class="title">Sales Excellence Award 2017</h3>
-                                    <p>This is given to Tractor for honoring its exemplary results and outstanding performance in sales during the four quarters of the year 2017. It is our third time receiving this award. The first time was in March 2010 and the second one was in September 2015.</p>
-                                </div>
-                            </div>
-                            <div class="award-item__single">
-                                <div class="image">
-                                    <img src="assets/img/award/5.jpg" class="img-fluid" alt="">
-                                </div>
-                                <div class="content">
-                                    <h3 class="title">Unparalleled Performance 2018</h3>
-                                    <p>This is an award to honor the excellent performance of the recipient in the chemical, industrial and architectural fields based on its gross avenues and net earning compared to others in the same field in 2018.</p>
-                                </div>
-                            </div>
-                        </div>
+  
                     </div>
-                </div>
-                <div class="col-lg-4">
-                    <!-- page sidebar -->
-                    <div class="page-sidebar">
-                        <!-- single sidebar widget -->
-                        <div class="single-sidebar-widget">
-                            <div class="sidebar-other-page__wrapper">
-                                <a href="page-about.html" class="sidebar-other-page__single">
-                                    <div class="icon">
-                                        <i class="tractor-home"></i>
-                                    </div>
-                                    <h3 class="page-title"> About 01</h3>
-                                </a>
-                                <a href="page-history.html" class="sidebar-other-page__single">
-                                    <div class="icon">
-                                        <i class="tractor-history"></i>
-                                    </div>
-                                    <h3 class="page-title">History</h3>
-                                </a>
-                                <a href="page-leadership.html" class="sidebar-other-page__single">
-                                    <div class="icon">
-                                        <i class="tractor-network"></i>
-                                    </div>
-                                    <h3 class="page-title">Leadership</h3>
-                                </a>
-                                <a href="page-partner.html" class="sidebar-other-page__single">
-                                    <div class="icon">
-                                        <i class="tractor-user"></i>
-                                    </div>
-                                    <h3 class="page-title">Partners & Clients</h3>
-                                </a>
-                                <a href="page-faq.html" class="sidebar-other-page__single">
-                                    <div class="icon">
-                                        <i class="tractor-compass"></i>
-                                    </div>
-                                    <h3 class="page-title">F.A.Q’s</h3>
-                                </a>
-                                <a href="page-award.html" class="sidebar-other-page__single active">
-                                    <div class="icon">
-                                        <i class="tractor-bookmark"></i>
-                                    </div>
-                                    <h3 class="page-title">Award & Recognition</h3>
-                                </a>
-                            </div>
-                        </div>
+            </div>
 
-                        <!-- single sidebar widget -->
-                        <div class="single-sidebar-widget">
-                            <h2 class="widget-title">Case Studies</h2>
-                            <div class="sidebar-case-study-list">
-                                <div class="single-sidebar-case-study">
-                                    <div class="single-sidebar-case-study__image">
-                                        <a href="#"><img src="assets/img/industry/1-75x64.jpg" class="img-fluid" alt=""></a>
-                                    </div>
-                                    <div class="single-sidebar-case-study__content">
-                                        <h3 class="title"><a href="#">GreenEco Park</a></h3>
-                                        <p class="category"><a href="#">Industry</a></p>
-                                    </div>
-                                </div>
-                                <div class="single-sidebar-case-study">
-                                    <div class="single-sidebar-case-study__image">
-                                        <a href="#"><img src="assets/img/industry/2-75x64.jpg" class="img-fluid" alt=""></a>
-                                    </div>
-                                    <div class="single-sidebar-case-study__content">
-                                        <h3 class="title"><a href="#">Burry Bridge</a></h3>
-                                        <p class="category"><a href="#">Manufacturing</a></p>
-                                    </div>
-                                </div>
-                                <div class="single-sidebar-case-study">
-                                    <div class="single-sidebar-case-study__image">
-                                        <a href="#"><img src="assets/img/industry/3-75x64.jpg" class="img-fluid" alt=""></a>
-                                    </div>
-                                    <div class="single-sidebar-case-study__content">
-                                        <h3 class="title"><a href="#">Rosemary Pump</a></h3>
-                                        <p class="category"><a href="#">Oil & Gas</a></p>
-                                    </div>
-                                </div>
+            <div class="col-lg-6">
+                <div class="award-item__single">
+                            <div class="image">
+                                <img src="assets/img/italia/pages/resources/companyprofile.png" class="img-fluid"
+                                    alt="">
                             </div>
-                        </div>
-                    </div>
+                            <div class="content">
+                                <h3 class="title">Italia Gypsum Profile</h3>
+                                <p>Italia Gypsum is a Kuwaiti gypsum manufacturer with decades of expertise, offering a comprehensive lineup of high-quality gypsum products—from boards to decorative elements—catering to construction, renovation, and architectural needs. Their commitment to innovation, customization, and sustainable practices sets them apart in the region.</p>
+                                     <button onclick="companyprofile()">
+                                         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" x="0" y="0" viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><defs><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 512h512V0H0Z" fill="#ffffff" opacity="1" data-original="#000000"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)"><path d="M0 0h-66.864c-12.101 0-21.91 9.81-21.91 21.91v66.864z" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(457.214 415.726)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h200.156" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(190.984 342.267)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h200.156" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(190.984 286.68)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h200.156" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(190.984 231.091)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h64.997C77.099 0 86.91 9.811 86.91 21.914v13.148" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(335.242 33.796)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h-13.148C-25.25 0-35.062-9.811-35.062-21.914v-391.815c0-12.102 9.812-21.913 21.914-21.913h190.794" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(124.91 469.438)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0v-107.018c0-12.103 9.811-21.914 21.914-21.914h288.477c12.102 0 21.913 9.811 21.913 21.914v4.383" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(54.786 136.432)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h-13.148c-12.103 0-21.914-9.811-21.914-21.914v-252.11" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(89.848 443.142)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0v61.501c0 12.103 9.811 21.914 21.914 21.914H243.53l88.774-88.774v-324.954c0-12.103-9.811-21.914-21.913-21.914H21.914C9.811-352.227 0-342.416 0-330.313v297.627" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(124.91 421.085)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path></g></g></svg>
+                                    <span>View</span>
+                                     </button>
+                            </div>
+                           
                 </div>
             </div>
+          
+            <div class="col-lg-6">
+                  <div class="award-item__single">
+                            <div class="image">
+                                <img src="assets/img/italia/pages/resources/specification.png" class="img-fluid"
+                                    alt="">
+                            </div>
+                            <div class="content">
+                                <h3 class="title">Italia Gypsum Board Specification</h3>
+                                <p>Gypsum board—also known as drywall, plasterboard, or wallboard—is composed of a core of non-combustible gypsum encased in paper liners. It conforms to widely recognized standards like ASTM C1396/C1396M and EN 520, addressing various board types and their intended applications</p>
+                                     <button onclick="specification()">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" x="0" y="0" viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><defs><clipPath id="a" clipPathUnits="userSpaceOnUse"><path d="M0 512h512V0H0Z" fill="#ffffff" opacity="1" data-original="#000000"></path></clipPath></defs><g clip-path="url(#a)" transform="matrix(1.33333 0 0 -1.33333 0 682.667)"><path d="M0 0h-66.864c-12.101 0-21.91 9.81-21.91 21.91v66.864z" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(457.214 415.726)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h200.156" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(190.984 342.267)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h200.156" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(190.984 286.68)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h200.156" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(190.984 231.091)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h64.997C77.099 0 86.91 9.811 86.91 21.914v13.148" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(335.242 33.796)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h-13.148C-25.25 0-35.062-9.811-35.062-21.914v-391.815c0-12.102 9.812-21.913 21.914-21.913h190.794" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(124.91 469.438)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0v-107.018c0-12.103 9.811-21.914 21.914-21.914h288.477c12.102 0 21.913 9.811 21.913 21.914v4.383" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(54.786 136.432)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0h-13.148c-12.103 0-21.914-9.811-21.914-21.914v-252.11" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(89.848 443.142)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path><path d="M0 0v61.501c0 12.103 9.811 21.914 21.914 21.914H243.53l88.774-88.774v-324.954c0-12.103-9.811-21.914-21.913-21.914H21.914C9.811-352.227 0-342.416 0-330.313v297.627" style="stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" transform="translate(124.91 421.085)" fill="none" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="none" stroke-opacity="" data-original="#000000" class="" opacity="1"></path></g></g></svg>
+                                    <span>View</span>
+                                     </button>
+                            </div>
+                           
+                  </div>
+            </div>
+            
         </div>
     </div>
+</div>
+
+@endsection
+
+@section('customjs')
+
+<script> 
+        function productcatelouge() { 
+        // OPEN NEW TAB 
+        window.open('https://drive.google.com/file/d/18HX94-hic4JTEL9fKm_BDOog9iZR2PS2/view?usp=sharing', '_blank'); 
+        // THEN REDIRECT THIS PAGE 
+        //    window.location = "http://www.redirectme.com"; 
+        } 
+
+        function companyprofile() { 
+        // OPEN NEW TAB 
+        window.open('https://drive.google.com/file/d/1IJCo4xDV-8EKs9IR4kkNU_lqjj-R1zcd/view?usp=sharing', '_blank'); 
+        // THEN REDIRECT THIS PAGE 
+        //    window.location = "http://www.redirectme.com"; 
+        } 
+
+        function specification() { 
+        // OPEN NEW TAB 
+        window.open('https://drive.google.com/file/d/11D0G4JNHZXP3LGdBntMZ0qE3Uh51f48o/view', '_blank'); 
+        // THEN REDIRECT THIS PAGE 
+        //    window.location = "http://www.redirectme.com"; 
+        } 
+</script> 
 
 @endsection

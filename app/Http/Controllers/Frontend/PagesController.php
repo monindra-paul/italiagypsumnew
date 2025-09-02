@@ -30,4 +30,9 @@ class PagesController extends Controller
     {
         return view('frontend.pages.resources');
     }
+
+    public function projects()
+    {
+        return view('frontend.pages.projects');
+    }
 }

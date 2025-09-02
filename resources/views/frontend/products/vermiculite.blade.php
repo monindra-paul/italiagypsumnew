@@ -83,7 +83,7 @@
 
 <div class="container mt-5">
     <div class="row ">
-        <div class="col-7">
+        <div class="col-12">
             <h2 class="text-center">Technical Specifications of Gypsum Vermiculite Plaster</h2>
    <table class="spec-table">
 
@@ -141,13 +141,13 @@
 
 
         </div>
-        <div class="col-5">
+        {{-- <div class="col-5">
             <h2 class="text-center">Chemical Composition (by weight%) </h2>                
             <div class="service-details-chart">
                 <canvas class="d-flex align-items-center" id="pie-chart"></canvas>
             </div>
 
-        </div>
+        </div> --}}
     </div>
 </div>
 

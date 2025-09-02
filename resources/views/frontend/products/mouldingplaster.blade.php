@@ -28,7 +28,7 @@
     <div class="row align-items-center">
         <div class="col-md-5">
             <div class="feature-project-single-slide__image">
-                <img src="assets/img/italia/product/moulding1.png" class="img-fluid" alt="" />
+                <img src="assets/img/italia/product/moulding-cornices.png" class="img-fluid" alt="" />
             </div>
         </div>
         <div class="col-md-7">
@@ -87,7 +87,7 @@
 
 <div class="container mt-5">
     <div class="row ">
-        <div class="col-7">
+        <div class="col-12">
             <h2 class="text-center">Technical Specifications of Gypsum Moulding Plaster</h2>
    <table class="spec-table">
 
@@ -139,13 +139,13 @@
 
 
         </div>
-        <div class="col-5">
+        {{-- <div class="col-5">
             <h2 class="text-center">Chemical Composition (by weight%) </h2>                
             <div class="service-details-chart">
                 <canvas class="d-flex align-items-center" id="pie-chart"></canvas>
             </div>
 
-        </div>
+        </div> --}}
     </div>
 </div>
 
